@@ -2,40 +2,70 @@
 <html>
 <head>
     <title>Carlos Montenegro Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <!-- Header section -->
-    <section id="header">
-        <div class="container">
-            <div class="logo">
-                <img src="logo">
-            </div>
+    <div class="container">
+
+        <!-- Header section -->
+        <div class="logo-area">
+            <img id="logo" srcset="img/logo.jpg">
+        </div>
             <!-- This element contains the name of the person with his title -->
-            <div class="title">
-                <h1>
-                    Carlos Montenegro
-                </h1>
-                <h2>
-                    Software Artisan
-                </h2>
+            <div class="box name-title">
+                <div class="name">
+                    <h1>
+                        CARLOS MONTENEGRO
+                    </h1>
+                </div>
+                <div class="title">
+                    <h3>
+                        Software Artisan
+                    </h3>
+                </div>
             </div>
+
+        <hr class="divider">
+
+        <!-- Content section -->
+        <div class="main">
+            <img class="main-image" srcset="img/main.jpg">
         </div>
-    </section>
-    <hr>
-    <!-- Content section -->
-    <section id='content'>
-        <div class="main-image">
-            <img src="main-image">
-        </div>
+
         <!-- List of projects -->
-        <div class="projects">
-            <div>
-                Project 1
-            </div>
-            <div>Project 2</div>
-            <div>Project 3</div>
+        <div class="projects-title">
+            <h2>
+                Featured Work
+            </h2>
         </div>
-    </section>
+        <div class="project1">
+            <img class="project-img" srcset="img/movies.jpeg">
+            <figcaption><h2>Movie Trailer Website</h2> </figcaption>
+            <figcaption>
+                <a href="https://github.com/carlos2606/ud036_StarterCode">
+                    <h5>github.com/carlos2606/ud036_StarterCode</h5>
+                </a>
+            </figcaption>
+        </div>
+        <div class="project2">
+            <img id="cipher" class="project-img" srcset="img/cipher.jpeg">
+            <figcaption><h2>Caesar Cipher</h2> </figcaption>
+            <figcaption>
+                <a href="https://github.com/carlos2606/CaesarCipher">
+                    <h5>github.com/carlos2606/CaesarCipher</h5>
+                </a>
+            </figcaption>
+        </div>
+        <div class="project3">
+            <img id="scan" class="project-img" srcset="img/scan.jpg">
+            <figcaption><h2>FSScanner</h2> </figcaption>
+            <figcaption>
+                <a href="https://github.com/carlos2606/FileSystemScanner">
+                    <h5>github.com/carlos2606/FileSystemScanner</h5>
+                </a>
+            </figcaption>
+        </div>
+    </div>
 </body>
 </html>
