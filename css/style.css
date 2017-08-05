@@ -11,7 +11,7 @@
     position: relative;
 }
 
-.name-title {
+header {
     width: 70%;
     text-align: right;
     margin-right: 1px;
@@ -34,9 +34,10 @@
 .main-image {
     width: 100%;
     height: 410px;
+    max-width: 100%;
 }
 
-.main {
+main {
     width: 100%;
     text-align: center;
 }
@@ -91,7 +92,7 @@ hr {
         order: 1;
         text-align: center;
     }
-    .name-title {
+    header {
         width: 100%;
         order: 2;
         text-align: center;
@@ -99,9 +100,9 @@ hr {
     .divider {
         order: 3;
     }
-    .main {
+    main {
         order: 4;
-        display: none;
+
     }
     .projects-title {
         order: 5;
